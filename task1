@@ -1,0 +1,12 @@
+struct Info {
+    let name: String
+    let age: Int
+    let city: String
+    let univ: String
+
+    var summary: String {
+        return "\(name), \(age), \(city), \(univ)"
+    }
+}
+let me = Info(name: "Bogdan", age: 20, city: "Saint-Petersburg", univ: "LETI" )
+print(me.summary)
